@@ -22,12 +22,9 @@ const Company = () => {
 
   return (
     <div className="App">
-      
       <h3>Company:{company.name}</h3>
       <h3>Ceo:{company.ceo}</h3>
       <p>{company.summary}</p>
-      
-  
     </div>
   );
 }
