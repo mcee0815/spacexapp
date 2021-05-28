@@ -1,10 +1,16 @@
-import Test from './components/test/test';
+import React from  'react'
+import Company from './components/company/Company';
 import './App.css';
+import NextLaunch from './components/next-launch/NextLaunch';
 
-function App() {
+ const App = () => {
+    
+
   return (
     <div className="App">
-      <Test />
+      <Company />
+      <hr/>
+      <NextLaunch />
     </div>
   );
 }
