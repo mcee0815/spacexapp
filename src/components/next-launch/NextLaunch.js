@@ -23,7 +23,7 @@ const NextLaunch = () => {
           details:data.details || '***'
           
         })
-        console.log(data)
+        // console.log(data)
       })
     }
     useEffect( () => {
@@ -40,7 +40,7 @@ const NextLaunch = () => {
             <h3>flight Number {launch.flightNumber}</h3>
             <h3>Launch Date: {launch.launchDate}</h3>
             <p>{launch.details}</p>
-            <hr/>
+            
         </div>
       }
     </div>
