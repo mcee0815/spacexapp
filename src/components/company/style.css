@@ -1,14 +1,16 @@
 .wrapper{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     background: yellow;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 h1{
     font-size:4.5em;
     color: blueviolet;
+    text-align: center;
     margin: 0; 
 }
 h3{
@@ -18,7 +20,7 @@ h3{
     margin-top:0;
     display:flex;
     /* justify-content:space-evenly; */
-    /* width:200px; */
+    width:134px;
     text-align: center; 
     /* background:'purple'; */
     margin:auto;

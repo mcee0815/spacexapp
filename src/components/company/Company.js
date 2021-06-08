@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from  'react'
 import ClipLoader from "react-spinners/ClipLoader";
 import MoonLoader from "react-spinners/MoonLoader";
+import './style.css';
 
 const Company = () => {
 
@@ -27,19 +28,26 @@ const Company = () => {
       getData()
     },[])
 
-  return (
-    <div className="App">
-    {
-      spin ? <ClipLoader/> :
-      <div>
-       <h1>{company.name}</h1>
-       <h3>Ceo:{company.ceo}</h3>
-       <p>{company.summary}</p>
+    return (
+      <div className='wrapper'>
+      {
+        spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
+        <div>
+        <h1>{company.name}</h1>
+        <div className='ceo'>
+          <h3>Ceo:</h3>
+          <h3>{company.ceo}</h3>
+        </div>
+        <div className='summary'>
+          <p>{company.summary}</p>
+        </div>
       </div>
+        
+      }
       
-    }
-    </div>
-  );
+         
+      </div>
+    );
 }
 
 export default Company;

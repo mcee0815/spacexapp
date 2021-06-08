@@ -11,7 +11,7 @@ import Rockets from './components/rocket/Rocket';
   return (
     <div className="">
       <Company />
-      <hr/>
+     
       <NextLaunch />
       <hr/>
       <Rockets />
