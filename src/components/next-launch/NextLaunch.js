@@ -23,7 +23,7 @@ const NextLaunch = () => {
           details:data.details || '***'
           
         })
-        // console.log(data)
+        console.log(data)
       })
     }
     useEffect( () => {
@@ -36,11 +36,9 @@ const NextLaunch = () => {
       {
         spin ? <ClipLoader/> :
         <div>
-            <h3>{launch.name}</h3>
+            <h2>{launch.name}</h2>
             <h3>flight Number {launch.flightNumber}</h3>
             <h3>Launch Date: {launch.launchDate}</h3>
-            <p>{launch.details}</p>
-            
         </div>
       }
     </div>

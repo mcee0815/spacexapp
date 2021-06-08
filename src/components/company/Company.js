@@ -32,7 +32,7 @@ const Company = () => {
     {
       spin ? <ClipLoader/> :
       <div>
-       <h3>Company:{company.name}</h3>
+       <h1>{company.name}</h1>
        <h3>Ceo:{company.ceo}</h3>
        <p>{company.summary}</p>
       </div>

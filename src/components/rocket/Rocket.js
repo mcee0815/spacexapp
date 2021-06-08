@@ -10,7 +10,7 @@ const  getRockets = async () => {
 const Rockets = () => {
     const [myRockets,setState] = useState([])
     const [spin,setSpinner] = useState(true)
-
+    
     useEffect(  () => {
           getRockets()
           .then(rockets => {
@@ -27,19 +27,24 @@ const Rockets = () => {
     },[])
   return (
       
-    <div style={{display:'flex',flexWrap:'wrap'}}>
+    <div style={{display:'flex',flexWrap:'wrap',justifyContent:'space-evenly'}}>
         {
-                spin ? <ClipLoader /> :
+                
                     myRockets.map((rocket,id) => {
-                    return (
-                        <div style={{width:400,background:"gray",color:"white",padding:10,margin:5}}>
-                            <p key={id}>{rocket.first_flight}</p>
-                            <p key={id}>{rocket.name}</p>
-                            <p key={id}>{rocket.description}</p>
-                            
-                            
+                     return   spin ? 
+                        <div style={{width:400,height:400,background:"gray",color:"white",padding:10,margin:5,display:'grid'}}>
+                            <p style={{margin:'auto'}}>
+                                <ClipLoader />
+                            </p> 
+                        </div> 
+                     :
+                        <div key={id} style={{width:350,background:"gray",color:"white",padding:10,margin:10}}>
+                            <img style={{width:'100%',maxHeight:215,height:'fitContent'}} src={rocket.flickr_images[0]}/>
+                            <h3>{rocket.name}</h3>
+                            <p>First Flight: {rocket.first_flight}</p>
+                            <p>{rocket.description}</p>
                         </div>
-                    ) 
+                    
                 })
         }
     </div>

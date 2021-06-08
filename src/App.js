@@ -9,7 +9,7 @@ import Rockets from './components/rocket/Rocket';
     
 
   return (
-    <div className="App">
+    <div className="">
       <Company />
       <hr/>
       <NextLaunch />
