@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background: yellow;
+    margin: auto;
+}
+
+h1{
+    font-size:4.5em;
+    color: blueviolet;
+    margin: 0; 
+}
+h3{
+    margin:0;
+}
+.ceo{
+    margin-top:0;
+    display:flex;
+    /* justify-content:space-evenly; */
+    /* width:200px; */
+    text-align: center; 
+    /* background:'purple'; */
+    margin:auto;
+}
+.summary{
+    width: 415px;
+    display: flex;
+    margin: auto;
+    text-align: left;
+}
