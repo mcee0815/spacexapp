@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from  'react'
 import ClipLoader from "react-spinners/ClipLoader";
+import './style.css'
 
 const NextLaunch = () => {
 
@@ -32,13 +33,20 @@ const NextLaunch = () => {
     },[])
 
   return (
-    <div className="App">
+    <div className='wrapper'>
+    <h2>Next Launch</h2>
+    
       {
-        spin ? <ClipLoader/> :
+        spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
         <div>
             <h2>{launch.name}</h2>
-            <h3>flight Number {launch.flightNumber}</h3>
-            <h3>Launch Date: {launch.launchDate}</h3>
+            <div className='flight-number'>
+                <h3>Flight Number: </h3> 
+                <h3>{launch.flightNumber}</h3>
+            </div>
+            <div className='summary'>
+                <h3>Launch Date: {launch.launchDate}</h3>
+            </div>
         </div>
       }
     </div>

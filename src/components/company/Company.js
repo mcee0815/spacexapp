@@ -44,8 +44,6 @@ const Company = () => {
       </div>
         
       }
-      
-         
       </div>
     );
 }

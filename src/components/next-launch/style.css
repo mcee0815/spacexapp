@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: black;
+    margin: auto;
+    padding-bottom: 20px;
+    color: white;
+}
+
+h1{
+    font-size:4.5em;
+    color: blueviolet;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0; 
+}
+h2,h3{
+    margin-bottom:5px;
+    text-align: center;
+}
+h2{
+    color: blueviolet;
+}
+.flight-number{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 165px;
+    text-align: center;
+    margin: auto;
+}
+.summary{
+    width: 415px;
+    display: flex;
+    margin: auto;
+    text-align: left;
+}

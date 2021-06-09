@@ -13,7 +13,7 @@ import Rockets from './components/rocket/Rocket';
       <Company />
      
       <NextLaunch />
-      <hr/>
+      
       <Rockets />
     </div>
   );
