@@ -33,11 +33,13 @@ const Company = () => {
       {
         spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
         <div>
+        
         <h1>{company.name}</h1>
         <div className='ceo'>
           <h3>Ceo:</h3>
           <h3>{company.ceo}</h3>
         </div>
+        <img className="elon" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/B4EC/production/_116361364_tes1.png" alt="elon"/>
         <div className='summary'>
           <p>{company.summary}</p>
         </div>
