@@ -34,12 +34,12 @@ const NextLaunch = () => {
 
   return (
     <div className='wrapper'>
-    <h2>Next Launch</h2>
+    <h2 style={{}}>Next Launch</h2>
     
       {
         spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
         <div>
-            <h2>{launch.name}</h2>
+            <h4>{launch.name}</h4>
             <div className='flight-number'>
                 <h3>Flight Number: </h3> 
                 <h3>{launch.flightNumber}</h3>
