@@ -32,7 +32,7 @@ const Company = () => {
       <div className='wrapper'>
       {
         spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
-        <div style={{margin:'auto',display:'flex',msFlexDirection:'column'}}>
+      <div style={{backgroundImage:"url('https://cdn.eso.org/images/screen/eso1132e.jpg')"}}>
         
         <h1>{company.name}</h1>
         <div className='ceo'>
