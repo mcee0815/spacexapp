@@ -36,3 +36,51 @@ h3{
     display: block;
     width: 200px;
     margin: 0 auto  ;}
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: #282c34;
+        margin: auto;
+        /* padding-bottom: 20px; */
+        box-sizing: border-box;
+        color: white;
+    }
+    
+    h1{
+        font-size:4.5em;
+        color: blueviolet;
+        text-align: center;
+        margin: 0; 
+    }
+    h3{
+        margin:0;
+    }
+    .ceo{
+        padding-bottom: 10px;
+        margin-top:5px;
+        display:flex;
+        width:134px;
+        text-align: center; 
+        margin:auto;
+    }
+    .summary{
+        width: 100%;
+        margin: auto;
+        text-align: left;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+    @media only screen and (min-width: 700px) {
+        .summary {
+          width: 50%;
+    
+        }
+      }
+    
+    .pic{
+        width: 10%;
+        /* text-align: center; */
+        display: block;
+        margin: auto;
+    }
