@@ -34,13 +34,16 @@ const Company = () => {
         spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
       <div style={{backgroundImage:"url('https://cdn.eso.org/images/screen/eso1132e.jpg')"}}>
         
-        <h1>{company.name}</h1>
+        <h1>SpaceX</h1>
         <div className='ceo'>
           <h3>Ceo:</h3>
           <h3>{company.ceo}</h3>
         </div>
-        <img className="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/800px-Elon_Musk_2015.jpg" alt="elon"/>
-        <div className='summary'><p>{company.summary}</p></div>
+        <img className="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/800px-Elon_Musk_2015.jpg" alt="elon musk"/>
+
+        
+        <p className={'text'}>{company.summary}</p>
+        
     
       </div>
         

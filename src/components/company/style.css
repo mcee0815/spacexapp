@@ -1,17 +1,16 @@
-.wrapper{
+
+.wrapper{ 
+    opacity: .7;
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: yellow;
+    background: black;
     margin: 0 auto;
-    padding-bottom: 20px;
-}
-
-h1{
-    font-size:4.5em;
-    color: blueviolet;
-    text-align: center;
-    /* margin: 0;  */
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    margin-bottom: -20px;
+    background-image: url('https://images-wixmp-ed30a86….wixmp.com/f/fec4e584-0e5b-4317-b82f-569b1a3e01b2/d5aszk6-3b561330-4f67-4b50-ad0c-e361f93ef479.png/v1/fill/w_900,h_743,q_80,strp/star_background_2__free__by_theawsomepeace_d5aszk6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQzIiwicGF0aCI6IlwvZlwvZmVjNGU1ODQtMGU1Yi00MzE3LWI4MmYtNTY5YjFhM2UwMWIyXC9kNWFzems2LTNiNTYxMzMwLTRmNjctNGI1MC1hZDBjLWUzNjFmOTNlZjQ3OS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.9tcv01T0CfBeLNjPUScwARB5bFpvPiBfKAW8LW3_btI');
 }
 
 h3{
@@ -35,24 +34,11 @@ h3{
 .elon{
     display: block;
     width: 200px;
-    margin: 0 auto  ;}
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background: #282c34;
-        margin: auto;
-        /* padding-bottom: 20px; */
-        box-sizing: border-box;
-        color: white;
-    }
+    margin: 0 auto ;
+}
     
-    h1{
-        font-size:4.5em;
-        color: blueviolet;
-        text-align: center;
-        margin: 0; 
-    }
+
+
     h3{
         margin:0;
     }
@@ -65,19 +51,21 @@ h3{
         margin:auto;
     }
     .summary{
-        width: 100%;
+        /* width: 100%;
         margin: auto;
         text-align: left;
-        box-sizing: border-box;
+        box-sizing: border-box; */
         padding: 25px;
     }
     @media only screen and (min-width: 700px) {
-        .summary {
-          width: 50%;
-    
+        .text {
+            width: 50%;
+            text-align: left;
+            display: block;
+            margin: 0 auto; 
+            padding: 15px;
         }
-      }
-    
+    }
     .pic{
         width: 10%;
         /* text-align: center; */

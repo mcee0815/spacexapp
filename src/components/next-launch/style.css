@@ -1,13 +1,14 @@
-.wrapper{
+.launchWrapper{
     opacity: .7;
     display: flex;
     flex-direction: column;
     width: 100%;
+    box-sizing: border-box;
     background: black;
     margin: 0 auto;
     padding-bottom: 20px;
     color: white;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fec4e584-0e5b-4317-b82f-569b1a3e01b2/d5aszk6-3b561330-4f67-4b50-ad0c-e361f93ef479.png/v1/fill/w_900,h_743,q_80,strp/star_background_2__free__by_theawsomepeace_d5aszk6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQzIiwicGF0aCI6IlwvZlwvZmVjNGU1ODQtMGU1Yi00MzE3LWI4MmYtNTY5YjFhM2UwMWIyXC9kNWFzems2LTNiNTYxMzMwLTRmNjctNGI1MC1hZDBjLWUzNjFmOTNlZjQ3OS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.9tcv01T0CfBeLNjPUScwARB5bFpvPiBfKAW8LW3_btI);
+    background-image: url('https://images-wixmp-ed30a86….wixmp.com/f/fec4e584-0e5b-4317-b82f-569b1a3e01b2/d5aszk6-3b561330-4f67-4b50-ad0c-e361f93ef479.png/v1/fill/w_900,h_743,q_80,strp/star_background_2__free__by_theawsomepeace_d5aszk6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQzIiwicGF0aCI6IlwvZlwvZmVjNGU1ODQtMGU1Yi00MzE3LWI4MmYtNTY5YjFhM2UwMWIyXC9kNWFzems2LTNiNTYxMzMwLTRmNjctNGI1MC1hZDBjLWUzNjFmOTNlZjQ3OS5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.9tcv01T0CfBeLNjPUScwARB5bFpvPiBfKAW8LW3_btI');
 }
 
 h1{
@@ -20,7 +21,7 @@ h1{
 h2,h3,h4{
     margin-bottom:5px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 10px;
 }
 h2{
     color: blueviolet;

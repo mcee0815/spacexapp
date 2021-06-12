@@ -33,8 +33,8 @@ const NextLaunch = () => {
     },[])
 
   return (
-    <div className='wrapper'>
-    <h2 style={{}}>Next Launch</h2>
+  <div style={{backgroundImage:"url('https://cdn.eso.org/images/screen/eso1132e.jpg')"}} className='launchWrapper'>
+    <h2>Next Launch</h2>
     
       {
         spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
@@ -44,12 +44,11 @@ const NextLaunch = () => {
                 <h3>Flight Number: </h3> 
                 <h3>{launch.flightNumber}</h3>
             </div>
-            <div className='summary'>
-                <h3>Launch Date: {launch.launchDate}</h3>
-            </div>
+            
+            <h3>Launch Date: {launch.launchDate}</h3>
         </div>
       }
-    </div>
+  </div>
   );
 }
 
