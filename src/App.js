@@ -9,12 +9,11 @@ import Rockets from './components/rocket/Rocket';
     
 
   return (
-    <div className="">
-      <Company />
+    <div>
      
-      <NextLaunch />
-      
-      <Rockets />
+     
+     <Company/>
+     
     </div>
   );
 }

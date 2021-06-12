@@ -32,7 +32,7 @@ const Company = () => {
       <div className='wrapper'>
       {
         spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
-        <div>
+        <div style={{margin:'auto',display:'flex',msFlexDirection:'column'}}>
         
         <h1>{company.name}</h1>
         <div className='ceo'>

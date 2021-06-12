@@ -27,12 +27,12 @@ const Rockets = () => {
     },[])
   return (
       
-    <div style={{display:'flex',flexWrap:'wrap',justifyContent:'space-evenly'}}>
+    <div style={{height:300,width:'100%',display:'flex',flexWrap:'wrap',justifyContent:'space-evenly'}}>
         {
                 
                     myRockets.map((rocket,id) => {
                      return   spin ? 
-                        <div style={{width:400,height:400,background:"gray",color:"white",padding:10,margin:5,display:'grid'}}>
+                        <div style={{height:400,width:400,background:"gray",color:"white",padding:10,margin:5,display:'grid'}}>
                             <p style={{margin:'auto'}}>
                                 <ClipLoader />
                             </p> 

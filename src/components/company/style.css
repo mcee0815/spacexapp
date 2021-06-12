@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     background: yellow;
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 
@@ -11,11 +11,13 @@ h1{
     font-size:4.5em;
     color: blueviolet;
     text-align: center;
-    margin: 0; 
+    /* margin: 0;  */
 }
+
 h3{
     margin:0;
 }
+
 .ceo{
     margin-top:0;
     display:flex;
