@@ -39,10 +39,9 @@ const Company = () => {
           <h3>Ceo:</h3>
           <h3>{company.ceo}</h3>
         </div>
-        <img className="elon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/800px-Elon_Musk_2015.jpg" alt="elon"/>
-        <div className='summary'>
-          <p>{company.summary}</p>
-        </div>
+        <img className="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/800px-Elon_Musk_2015.jpg" alt="elon"/>
+        <div className='summary'><p>{company.summary}</p></div>
+    
       </div>
         
       }
