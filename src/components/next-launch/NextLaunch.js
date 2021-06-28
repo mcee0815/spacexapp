@@ -34,18 +34,16 @@ const NextLaunch = () => {
 
   return (
   <div style={{backgroundImage:"url('https://cdn.eso.org/images/screen/eso1132e.jpg')"}} className='launchWrapper'>
-    <h2>Next Launch</h2>
+    <h2 className='nextLaunchH2'>Next Launch</h2>
     
       {
         spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
         <div>
-            <h4>{launch.name}</h4>
-            <div className='flight-number'>
-                <h3>Flight Number: </h3> 
-                <h3>{launch.flightNumber}</h3>
-            </div>
-            
-            <h3>Launch Date: {launch.launchDate}</h3>
+            <h3>{launch.name}</h3>
+            <h3>Flight Number {launch.flightNumber}</h3> 
+            <h4><span></span></h4>
+            <h3>Launch Date:</h3>
+            <p style={{textAlign:'center'}}> {launch.launchDate}</p>
         </div>
       }
   </div>
