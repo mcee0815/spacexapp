@@ -41,12 +41,12 @@ const Rockets = () => {
                             </p> 
                         </div> 
                      :
-                        <div key={id} style={{boxSizing:'border-box',fontSize:'larger',width:350,background:"#502050",color:"white",padding:10,margin:10}}>
+                        <div key={id} style={{boxSizing:'border-box',fontSize:'large',width:350,background:"#502050",color:"white",padding:10,margin:10}}>
                             <h2 style={{marginBottom:5,color:'white',textAlign:'left',marginLeft:10}}>{rocket.name}</h2>
                             <img style={{width:'100%',maxHeight:200,height:'fitContent'}} src={rocket.flickr_images[0]}/>
                             <p style={{paddingTop:7}}>First Flight: {rocket.first_flight}</p>
                             <p>{rocket.description}</p>
-                            <a style={{textDecoration:'none',textAlign:'center',boxSizing:'border-box',fontSize:'small',display:'block',width:50,height:35,boxShadow:'4px 4px darkgrey',background:'white',marginBottom:20,padding:10,}} href='spacex.com'>More</a>
+                            <a style={{textDecoration:'none',textAlign:'center',boxSizing:'border-box',fontSize:'small',display:'block',width:50,height:35,boxShadow:'4px 4px darkgrey',background:'white',marginBottom:20,padding:10,}} href='http://www.spacex.com'>More</a>
                         </div>
                     
                 })
