@@ -30,20 +30,12 @@ const Company = () => {
     return (
       <div className='wrapper'>
       {
-        spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> :
+        spin ? <p style={{textAlign:'center'}}><ClipLoader/></p> 
+        :
       <div style={{backgroundImage:"url('https://cdn.eso.org/images/screen/eso1132e.jpg')"}}>
-        
         <h1>SpaceX</h1>
-        <div className='ceo'>
-          <h3>Ceo:</h3>
-          <h3>{company.ceo}</h3>
-        </div>
-        
-
-        
+         
         <p className={'text'}>{company.summary}</p>
-        
-    
       </div>
         
       }
