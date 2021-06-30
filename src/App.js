@@ -12,6 +12,7 @@ import Rockets from './components/rocket/Rocket';
     <div>
      <Company/>
      <NextLaunch/>
+     <h1 style={{fontSize:'2.8em',backgroundImage:'url(https://cdn.eso.org/images/screen/eso1132e.jpg)'}}>Rockets</h1>
      <Rockets/>
      
     </div>

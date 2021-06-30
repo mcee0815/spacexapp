@@ -1,6 +1,6 @@
 
 .wrapper{ 
-    opacity: .7;
+    /* opacity: .7; */
     display: flex;
     flex-direction: column;
     width: 100%;

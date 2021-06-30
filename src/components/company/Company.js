@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from  'react'
 import ClipLoader from "react-spinners/ClipLoader";
-import MoonLoader from "react-spinners/MoonLoader";
 import './style.css';
 
 const Company = () => {
