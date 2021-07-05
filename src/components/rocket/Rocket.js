@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from  'react'
 import ClipLoader from "react-spinners/ClipLoader";
+import rocketCss from './rocket.css';
 
 const  getRockets = async () => {
     let data = await fetch("https://api.spacexdata.com/v4/rockets")
@@ -24,10 +25,10 @@ const Rockets = () => {
             })
           
     },[])
-
+            
   return (
       
-    <div style={{width:'100%',display:'flex',flexWrap:'wrap',justifyContent:'space-evenly',backgroundImage: 'url(https://cdn.eso.org/images/screen/eso1132e.jpg)'}}>
+    <div classname='rocketCss'  style={{width:'100%',display:'flex',flexWrap:'wrap',justifyContent:'space-evenly',backgroundImage: 'url(https://cdn.eso.org/images/screen/eso1132e.jpg)'}}>
         
                 
         {
